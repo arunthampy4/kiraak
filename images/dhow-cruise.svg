@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7ec8e3"/>
+      <stop offset="100%" stop-color="#bfe8f5"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1f7a99"/>
+      <stop offset="100%" stop-color="#0d4f66"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#sky2)"/>
+  <circle cx="80" cy="60" r="28" fill="#fff7e0"/>
+  <path d="M0 150 L60 90 L130 150 Z" fill="#3a3f4a"/>
+  <path d="M270 150 L330 70 L400 150 Z" fill="#3a3f4a"/>
+  <rect y="170" width="400" height="130" fill="url(#sea)"/>
+  <path d="M0 185 Q40 175 80 185 T160 185 T240 185 T320 185 T400 185 V300 H0 Z" fill="#155a72"/>
+  <g transform="translate(150,150)">
+    <path d="M0 50 L100 50 L85 70 L15 70 Z" fill="#fff" />
+    <rect x="45" y="0" width="4" height="50" fill="#3a3f4a"/>
+    <path d="M49 5 L90 45 L49 45 Z" fill="#e8702c"/>
+  </g>
+</svg>

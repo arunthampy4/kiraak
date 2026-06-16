@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="heroSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff8a3d"/>
+      <stop offset="55%" stop-color="#ffb469"/>
+      <stop offset="100%" stop-color="#ffd9a0"/>
+    </linearGradient>
+    <linearGradient id="heroDune1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d6772c"/>
+      <stop offset="100%" stop-color="#b25c1c"/>
+    </linearGradient>
+    <linearGradient id="heroDune2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eb9a4d"/>
+      <stop offset="100%" stop-color="#cf7c2c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#heroSky)"/>
+  <circle cx="650" cy="110" r="60" fill="#fff3d6" opacity="0.9"/>
+  <path d="M0 330 Q160 250 320 320 T640 300 T800 320 V500 H0 Z" fill="url(#heroDune2)"/>
+  <path d="M0 400 Q200 320 400 390 T800 370 V500 H0 Z" fill="url(#heroDune1)"/>
+  <g transform="translate(520,330) scale(1.1)">
+    <path d="M0 60 Q15 15 45 15 Q52 0 68 8 Q82 -8 90 15 Q115 15 122 52 Q128 60 122 68 L0 68 Z" fill="#7a4a23"/>
+    <line x1="15" y1="68" x2="8" y2="92" stroke="#7a4a23" stroke-width="6"/>
+    <line x1="38" y1="68" x2="33" y2="94" stroke="#7a4a23" stroke-width="6"/>
+    <line x1="82" y1="68" x2="87" y2="94" stroke="#7a4a23" stroke-width="6"/>
+    <line x1="108" y1="68" x2="116" y2="92" stroke="#7a4a23" stroke-width="6"/>
+  </g>
+  <g transform="translate(120,360) scale(0.85)">
+    <path d="M0 60 Q15 15 45 15 Q52 0 68 8 Q82 -8 90 15 Q115 15 122 52 Q128 60 122 68 L0 68 Z" fill="#5f3a1b"/>
+    <line x1="15" y1="68" x2="8" y2="92" stroke="#5f3a1b" stroke-width="6"/>
+    <line x1="38" y1="68" x2="33" y2="94" stroke="#5f3a1b" stroke-width="6"/>
+    <line x1="82" y1="68" x2="87" y2="94" stroke="#5f3a1b" stroke-width="6"/>
+    <line x1="108" y1="68" x2="116" y2="92" stroke="#5f3a1b" stroke-width="6"/>
+  </g>
+</svg>

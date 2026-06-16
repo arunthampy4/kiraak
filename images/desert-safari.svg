@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff9d52"/>
+      <stop offset="100%" stop-color="#ffd9a0"/>
+    </linearGradient>
+    <linearGradient id="dune1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e0833a"/>
+      <stop offset="100%" stop-color="#c2641f"/>
+    </linearGradient>
+    <linearGradient id="dune2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0a85c"/>
+      <stop offset="100%" stop-color="#d6822f"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#sky)"/>
+  <circle cx="320" cy="70" r="36" fill="#fff3d6"/>
+  <path d="M0 220 Q100 160 200 215 T400 200 V300 H0 Z" fill="url(#dune2)"/>
+  <path d="M0 260 Q120 200 220 250 T400 240 V300 H0 Z" fill="url(#dune1)"/>
+  <g transform="translate(150,205)">
+    <path d="M0 40 Q10 10 30 10 Q35 0 45 5 Q55 -5 60 10 Q75 10 80 35 Q85 40 80 45 L0 45 Z" fill="#7a4a23"/>
+    <line x1="10" y1="45" x2="5" y2="60" stroke="#7a4a23" stroke-width="4"/>
+    <line x1="25" y1="45" x2="22" y2="62" stroke="#7a4a23" stroke-width="4"/>
+    <line x1="55" y1="45" x2="58" y2="62" stroke="#7a4a23" stroke-width="4"/>
+    <line x1="72" y1="45" x2="78" y2="60" stroke="#7a4a23" stroke-width="4"/>
+  </g>
+</svg>
